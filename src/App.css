@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+  /* background-color: purple; */
+  /* color: white; */
+  font-size: 25px;
+}
+.alll {
+  position: relative;
+}
+.list-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.btn-delete {
+  font-size: 20px;
+  /* background-color: tomato; */
+  border-radius: 1px;
+  margin-left: 15px;
+  border: 3px solid red;
+  cursor: pointer;
+}
+.btn-delete :hover {
+  background-color: brown;
+}
+.btn-add {
+  font-size: 20px;
+  margin-left: 5px;
+  border: 2px solid green;
+}
+.input-e {
+  font-size: 15px;
+  border: 2px solid yellow;
+  box-shadow: blue 1px 1px 10px 1px;
+}
+.input {
+  box-shadow: blue 1px 1px 10px 1px;
+}
